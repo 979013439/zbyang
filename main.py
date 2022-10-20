@@ -11,7 +11,7 @@ df = pd.DataFrame(columns=['username', 'time', 'likes',
                   'comments', 'shares', 'reactions', 'post_text'])
 
 posts = facebook_scraper.get_posts(
-    group='680532756158231', cookies="./facebook_cookie.json")
+    group='689278925171103', cookies="./facebook_cookie.json")
 
 for index, post in enumerate(posts):
     print(("+"*10) + str(index) + ("+"*10))
